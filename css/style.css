@@ -37,9 +37,14 @@ h2 {
 .CarouselImageGroup {
 	display: flex;
 	flex-wrap: wrap;
+	margin-left: -20px;
 }
 .CarouselImage {
 	width: 20%;
+	padding-left: 20px;
+}
+.CarouselImage img {
+	width: 100%;
 }
 
 
@@ -49,11 +54,6 @@ h2 {
 
 
 
-.header-right {
-	text-align: right;
-	width: 48%;
-	line-height: 130px;
-}
 .header-right ul {
 	display: flex;
 	flex-wrap: wrap;
