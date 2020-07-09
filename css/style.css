@@ -51,9 +51,15 @@ h2 {
 	position: relative;
 }
 .CarouselImage .caption {
+	padding: 16px;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 
@@ -63,10 +69,6 @@ h2 {
 
 
 
-.header-right ul li {
-	font-size: 16px;
-	padding: 0 8px;
-}
 .header-right ul li.btn a {
 	color: #297CBB;
 	border: 1px solid #297CBB;
