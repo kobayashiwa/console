@@ -42,9 +42,18 @@ h2 {
 .CarouselImage {
 	width: 20%;
 	padding-left: 20px;
+	margin-bottom: 20px;
 }
 .CarouselImage img {
 	width: 100%;
+}
+.CarouselImage .cover {
+	position: relative;
+}
+.CarouselImage .caption {
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 
@@ -54,11 +63,6 @@ h2 {
 
 
 
-.header-right ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-}
 .header-right ul li {
 	font-size: 16px;
 	padding: 0 8px;
