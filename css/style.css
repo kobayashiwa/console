@@ -66,16 +66,17 @@ h2 {
 		width: 33.33%;
 	}
 }
-
+@media (max-width: 670px) {
+	.CarouselImage {
+		width: 50%;
+	}
+}
 
 
 /**
 
 
 
-.mid-header .container {
-	border-bottom: 1px solid #E2E7EA;
-}
 .mid-header ul {
 	display: flex;
 	justify-content: center;
