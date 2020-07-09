@@ -32,6 +32,14 @@ ul, li {
 h2 {
 	font-size: 24px;
 	font-weight: 400;
+	margin-bottom: 16px;
+}
+.CarouselImageGroup {
+	display: flex;
+	flex-wrap: wrap;
+}
+.CarouselImage {
+	width: 20%;
 }
 
 
@@ -41,11 +49,6 @@ h2 {
 
 
 
-.header-logo {
-	width: 12%;
-	justify-content: center;
-	padding-top: 30px;
-}
 .header-right {
 	text-align: right;
 	width: 48%;
