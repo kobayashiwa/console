@@ -20,6 +20,19 @@ ul, li {
 	margin: 0;
 	padding: 0;
 }
+.container {
+	width: 100%;
+	max-width: 1290px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+.Carousel-wrapper {
+	margin: 80px 0;
+}
+h2 {
+	font-size: 24px;
+	font-weight: 400;
+}
 
 
 
@@ -27,9 +40,7 @@ ul, li {
 /**
 
 
-.header-left .search img {
-	height: 100%;
-}
+
 .header-logo {
 	width: 12%;
 	justify-content: center;
